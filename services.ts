@@ -109,7 +109,6 @@ export const postComment = async ({
     method: 'POST',
     headers: createHeader({
       Accept: 'application/xml, text/xml, */*',
-      'Content-Length': new TextEncoder().encode(payload).length.toString(),
       'Content-Type': 'text/plain',
       'X-Requested-With': 'XMLHttpRequest',
     }),
