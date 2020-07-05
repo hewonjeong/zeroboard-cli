@@ -1,8 +1,8 @@
-Zeroboard CLI
+# Zeroboard CLI
 
 A simple CLI with Deno
 
-Usage
+## Usage
 
 ```bash
 $ git clone https://github.com/hewonjeong/zeroboard-cli.git
